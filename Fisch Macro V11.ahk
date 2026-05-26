@@ -60,7 +60,7 @@ ClickScanDelay := 100
 RepeatBypassCounter := 10
 
 ; Seconds for navigation shake to be considered failed
-NavigationShakeFailsafe := 30
+NavigationShakeFailsafe := 
 ; Delay between each "S+Enter" in miliseconds
 NavigationSpamDelay := 10
 
