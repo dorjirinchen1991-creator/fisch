@@ -27,7 +27,7 @@ NavigationFailsafeTimer := 20
 NavigationInputDelay := 10
 
 ; Click Circle Settings
-ClickFailsafeTimer := 20
+ClickFailsafeTimer := 
 WhiteCircleColorTolerance := 1
 ClickDelayAfterMouseMove := 10
 RescanDelayAfterClick := 50
