@@ -50,8 +50,7 @@ ShakeMode := "Navigation"
 ; Color range to scan for fish bar
 FishBarColorTolerance := 0
 
-; Seconds for click shake to be considered failed
-ClickShakeFailsafe := 20
+
 ; Color range to scan for "shake" text
 ClickShakeColorTolerance := 1
 ; Delay between each scan in miliseconds
@@ -59,8 +58,7 @@ ClickScanDelay := 100
 ; How many scans before clicking regardless of repeats
 RepeatBypassCounter := 10
 
-; Seconds for navigation shake to be considered failed
-NavigationShakeFailsafe := 30
+
 ; Delay between each "S+Enter" in miliseconds
 NavigationSpamDelay := 10
 
@@ -223,7 +221,7 @@ tooltip, Runtime: 0h 0m 0s, %TooltipX%, %Tooltip2%, 2
 
 tooltip, Press "P" to Start, %TooltipX%, %Tooltip4%, 4
 tooltip, Press "O" to Reload, %TooltipX%, %Tooltip5%, 5
-tooltip, Press "M" to Exit, %TooltipX%, %Tooltip6%, 6
+tooltip, Press "k" to Exit, %TooltipX%, %Tooltip6%, 6
 
 if (AutoLowerGraphics == true)
 	{
